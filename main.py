@@ -1,7 +1,6 @@
 from datetime import datetime
 from enum import Enum
 from typing import List, Optional
-from urllib.request import Request
 
 from fastapi import FastAPI, status, Request
 from pydantic import BaseModel, Field, ValidationError
